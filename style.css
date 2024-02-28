@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #005b96;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Adiciona um espaçamento acima e abaixo do texto */
+    background-color: #464444 ; /* Cor de fundo */
+    color: #f0f8ff;
+    margin: 0; /* Margem zerada */
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #f4f4f4;
+    color: #0e0d0d;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    margin-bottom: 0;
+}
+
+.container h2 {
+    margin-top: 0;
+}
+
+#imcForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 10px 0;
+}

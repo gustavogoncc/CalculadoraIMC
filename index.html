@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bem-vindo à nossa Calculadora de IMC! </h1>
+    <h4>  Aqui você poderá calcular o seu Índice de Massa Corporal (IMC), uma medida que avalia se o seu peso está adequado para a sua altura. Basta inserir a sua altura em metros e o seu peso em quilogramas nos campos fornecidos e clicar em 'Calcular IMC'. Após isso, você receberá o seu IMC e uma mensagem indicando se está abaixo do peso, dentro do peso normal, com sobrepeso ou obeso. 
+        Explore nossa ferramenta para obter uma visão geral da sua saúde e bem-estar!</h4>
+    <div class="container">
+        <h2>Calculadora de IMC</h2>
+        <form id="imcForm">
+            <label for="altura">Altura (metros):</label>
+            <input type="number" id="altura" step="0.1" required><br><br>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" step="0.1" required><br><br>
+
+            <button type="submit">Calcular IMC</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <footer>
+        <p>© 2024 Desenvolvido por Gustavo Gonçalves - Todos os direitos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
