@@ -1,0 +1,1 @@
+Neste repositório, está um projeto de uma calculadora IMC. Onde, após o usuário inserir sua altura e seu peso, ele informa se você está abaixo do normal, está no IMC correto, acima do IMC ou com obesidade.
